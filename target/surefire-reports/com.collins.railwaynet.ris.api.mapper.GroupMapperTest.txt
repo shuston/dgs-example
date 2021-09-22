@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.collins.railwaynet.ris.api.mapper.GroupMapperTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in com.collins.railwaynet.ris.api.mapper.GroupMapperTest
