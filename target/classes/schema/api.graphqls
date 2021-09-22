@@ -1,0 +1,22 @@
+schema {
+  query: Query
+}
+
+type ItemRange {
+    name: String!
+    first: Int!
+    last: Int!
+}
+
+interface Group {
+    label: String!
+}
+
+type DefinedGroup implements Group {
+    label: String!
+    items: [ItemRange!]!
+}
+
+type Query {
+    groups: [Group!]!
+}
